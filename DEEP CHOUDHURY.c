@@ -1,11 +1,12 @@
 #include <stdio.h>
-#include io.h>
+#include <conio.h>
 
 int main()
 {
-    int 0,r=10,t=1;
+    int p=5000,r=10,t=1;
     printf("p=%d\n",p);
-    printf("
+    printf("r=%d\n",r);
+    printf("t=%d\n",t);
     
     printf("Interest= (%d*%d*%d)/100=%d",p,r,t,(p*r*t)/100);
     
